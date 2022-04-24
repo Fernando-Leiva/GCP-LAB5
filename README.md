@@ -1,6 +1,6 @@
 # GCP-LAB5
 
-Seleccionar el proyecto.
+Seleccionar el proyecto. \
 gcloud config set project gcp-lab-5
 
 Crear la instancia en Cloud SQL \
@@ -14,7 +14,7 @@ Crear bases de datos. \
 gcloud sql databases create GCP-Final-Project --instance=mysqllab5 \
 
 Mostrar en lista las bases de datos. \
-gcloud sql databases list --instance=mysqllab5
+gcloud sql databases list --instance=mysqllab5 \
 
 Connectate a la instancia de cloud sql \
 gcloud sql connect mysqllab5 --user=root \
