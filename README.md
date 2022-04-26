@@ -33,7 +33,7 @@ USE MyPicz; \
 CREATE TABLE album(name VARCHAR(255)); \
 
 Create or deploy function. \
-gcloud functions deploy "infoUser" --runtime nodejs16 --trigger-http --allow-unauthenticated
+gcloud functions deploy "helloWorld" --runtime nodejs16 --trigger-http --allow-unauthenticated
 
 
 <img width="1066" alt="Screen Shot 2022-04-26 at 14 40 11" src="https://user-images.githubusercontent.com/99757333/165388737-d504f10d-423b-4037-b50c-6583aaa50a8e.png">
